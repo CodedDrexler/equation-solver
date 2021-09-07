@@ -6,11 +6,8 @@ import java.util.Scanner;
 
 public class Execute {
 
-	public static void main(String[] args) {
-		
-		execute();
-		
-		
+	public static void main(String[] args) {	
+		execute();	
 	}
 	
 	static void execute() {
@@ -34,7 +31,7 @@ Scanner sc = new Scanner(System.in);
 	delta = Math.pow(b, 2) -4*a*c;
 	
 	if (delta < 0) {
-		System.out.println("Não existe raiz real ");
+		System.out.println("NÃ£o existe raiz real ");
 			
 			 }else {
 	x1 = ((-b + Math.sqrt(delta)) / (2 * a));
@@ -45,7 +42,7 @@ Scanner sc = new Scanner(System.in);
 	System.out.println("Delta: "+ delta);
 	System.out.println("Valor de x': "+x1);
 	System.out.println("Valor de x'': "+x2);
-	System.out.println("Operação feita em: "+sdf.format(date) +" as "+sdf2.format(date));
+	System.out.println("OperaÃ§Ã£o feita em: "+sdf.format(date) +" as "+sdf2.format(date));
 	System.out.println("");
 	sc.close();
 			 	}
